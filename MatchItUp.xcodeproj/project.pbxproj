@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A26AF711AE1298A00C6E0EA /* RoundedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A26AF701AE1298A00C6E0EA /* RoundedImageView.swift */; };
+		1A26AF731AE12FEA00C6E0EA /* MatchingGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A26AF721AE12FEA00C6E0EA /* MatchingGame.swift */; };
+		1A6D2FA31AE7BDFD001C9DDC /* CircleDrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6D2FA21AE7BDFD001C9DDC /* CircleDrawView.swift */; };
+		1ABC80991AC96EF900F15569 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABC80981AC96EF900F15569 /* AppDelegate.swift */; };
+		1ABC809B1AC96EF900F15569 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABC809A1AC96EF900F15569 /* GameViewController.swift */; };
+		1ABC809E1AC96EF900F15569 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ABC809C1AC96EF900F15569 /* Main.storyboard */; };
+		1ABC80A01AC96EF900F15569 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ABC809F1AC96EF900F15569 /* Images.xcassets */; };
+		1ABC80A31AC96EF900F15569 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1ABC80A11AC96EF900F15569 /* LaunchScreen.xib */; };
+		1AC124881AE2DBDD00B051D7 /* GameOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC124871AE2DBDD00B051D7 /* GameOverViewController.swift */; };
+		1AF3F2F01AE23078000B8FB9 /* CircleFit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF3F2EF1AE23078000B8FB9 /* CircleFit.swift */; };
+		5C404C311B10BD11003E22B3 /* CircleGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C404C301B10BD11003E22B3 /* CircleGestureRecognizer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A26AF701AE1298A00C6E0EA /* RoundedImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedImageView.swift; sourceTree = "<group>"; };
+		1A26AF721AE12FEA00C6E0EA /* MatchingGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchingGame.swift; sourceTree = "<group>"; };
+		1A6D2FA11AE742C0001C9DDC /* Lobster-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lobster-Regular.ttf"; sourceTree = "<group>"; };
+		1A6D2FA21AE7BDFD001C9DDC /* CircleDrawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleDrawView.swift; sourceTree = "<group>"; };
+		1ABC80931AC96EF900F15569 /* MatchItUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatchItUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ABC80971AC96EF900F15569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ABC80981AC96EF900F15569 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1ABC809A1AC96EF900F15569 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		1ABC809D1AC96EF900F15569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1ABC809F1AC96EF900F15569 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1ABC80A21AC96EF900F15569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1AC124871AE2DBDD00B051D7 /* GameOverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverViewController.swift; sourceTree = "<group>"; };
+		1AF3F2EF1AE23078000B8FB9 /* CircleFit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleFit.swift; sourceTree = "<group>"; };
+		5C404C301B10BD11003E22B3 /* CircleGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleGestureRecognizer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1ABC80901AC96EF900F15569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1ABC808A1AC96EF900F15569 = {
+			isa = PBXGroup;
+			children = (
+				1ABC80951AC96EF900F15569 /* MatchItUp */,
+				1ABC80941AC96EF900F15569 /* Products */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+		};
+		1ABC80941AC96EF900F15569 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1ABC80931AC96EF900F15569 /* MatchItUp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1ABC80951AC96EF900F15569 /* MatchItUp */ = {
+			isa = PBXGroup;
+			children = (
+				1ABC80981AC96EF900F15569 /* AppDelegate.swift */,
+				1ABC809A1AC96EF900F15569 /* GameViewController.swift */,
+				1AC124871AE2DBDD00B051D7 /* GameOverViewController.swift */,
+				1AF3F2EF1AE23078000B8FB9 /* CircleFit.swift */,
+				1ABC809C1AC96EF900F15569 /* Main.storyboard */,
+				1A26AF701AE1298A00C6E0EA /* RoundedImageView.swift */,
+				1A6D2FA21AE7BDFD001C9DDC /* CircleDrawView.swift */,
+				1A26AF721AE12FEA00C6E0EA /* MatchingGame.swift */,
+				5C404C301B10BD11003E22B3 /* CircleGestureRecognizer.swift */,
+				1ABC809F1AC96EF900F15569 /* Images.xcassets */,
+				1ABC80A11AC96EF900F15569 /* LaunchScreen.xib */,
+				1ABC80961AC96EF900F15569 /* Supporting Files */,
+			);
+			path = MatchItUp;
+			sourceTree = "<group>";
+		};
+		1ABC80961AC96EF900F15569 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A6D2FA11AE742C0001C9DDC /* Lobster-Regular.ttf */,
+				1ABC80971AC96EF900F15569 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1ABC80921AC96EF900F15569 /* MatchItUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ABC80B21AC96EF900F15569 /* Build configuration list for PBXNativeTarget "MatchItUp" */;
+			buildPhases = (
+				1ABC808F1AC96EF900F15569 /* Sources */,
+				1ABC80901AC96EF900F15569 /* Frameworks */,
+				1ABC80911AC96EF900F15569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MatchItUp;
+			productName = Ciclr;
+			productReference = 1ABC80931AC96EF900F15569 /* MatchItUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1ABC808B1AC96EF900F15569 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = raywenderlich;
+				TargetAttributes = {
+					1ABC80921AC96EF900F15569 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 992QM9NYZM;
+					};
+				};
+			};
+			buildConfigurationList = 1ABC808E1AC96EF900F15569 /* Build configuration list for PBXProject "MatchItUp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 1ABC808A1AC96EF900F15569;
+			productRefGroup = 1ABC80941AC96EF900F15569 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1ABC80921AC96EF900F15569 /* MatchItUp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1ABC80911AC96EF900F15569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ABC809E1AC96EF900F15569 /* Main.storyboard in Resources */,
+				1ABC80A31AC96EF900F15569 /* LaunchScreen.xib in Resources */,
+				1ABC80A01AC96EF900F15569 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1ABC808F1AC96EF900F15569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A26AF711AE1298A00C6E0EA /* RoundedImageView.swift in Sources */,
+				5C404C311B10BD11003E22B3 /* CircleGestureRecognizer.swift in Sources */,
+				1A6D2FA31AE7BDFD001C9DDC /* CircleDrawView.swift in Sources */,
+				1A26AF731AE12FEA00C6E0EA /* MatchingGame.swift in Sources */,
+				1AF3F2F01AE23078000B8FB9 /* CircleFit.swift in Sources */,
+				1AC124881AE2DBDD00B051D7 /* GameOverViewController.swift in Sources */,
+				1ABC809B1AC96EF900F15569 /* GameViewController.swift in Sources */,
+				1ABC80991AC96EF900F15569 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1ABC809C1AC96EF900F15569 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ABC809D1AC96EF900F15569 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1ABC80A11AC96EF900F15569 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ABC80A21AC96EF900F15569 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1ABC80B01AC96EF900F15569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1ABC80B11AC96EF900F15569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1ABC80B31AC96EF900F15569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 992QM9NYZM;
+				INFOPLIST_FILE = "$(SRCROOT)/MatchItUp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.MatchItUpoo;
+				PRODUCT_NAME = MatchItUp;
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1ABC80B41AC96EF900F15569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 992QM9NYZM;
+				INFOPLIST_FILE = "$(SRCROOT)/MatchItUp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.MatchItUpoo;
+				PRODUCT_NAME = MatchItUp;
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1ABC808E1AC96EF900F15569 /* Build configuration list for PBXProject "MatchItUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ABC80B01AC96EF900F15569 /* Debug */,
+				1ABC80B11AC96EF900F15569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ABC80B21AC96EF900F15569 /* Build configuration list for PBXNativeTarget "MatchItUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ABC80B31AC96EF900F15569 /* Debug */,
+				1ABC80B41AC96EF900F15569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1ABC808B1AC96EF900F15569 /* Project object */;
+}
